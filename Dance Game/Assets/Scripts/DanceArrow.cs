@@ -13,7 +13,7 @@ void FixedUpdate (){
  {
       if (inPerfect == true)
       {
-        print ("Perfect");
+        print ("Perfect");                         
       }
       else if (inGood == true)
       {

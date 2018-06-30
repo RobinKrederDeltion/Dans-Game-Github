@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ControllArrow : MonoBehaviour
 {
-    public Collider2D perfect;
-    public Collider2D good;
+    public Collider perfect;
+    public Collider good;
 
 
-    public void OnTriggerEnter2d(Collider col)
+    public void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Arrow")
         {
